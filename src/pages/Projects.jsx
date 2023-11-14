@@ -22,8 +22,8 @@ const projectData = [
     projectName: "Personal Portfolio",
     techStack: "ReactJS ,Tailwind CSS",
     image: "./projects/Portfolio.png",
-    link: "llllll",
-    github: "llllll",
+    link: "https://ganadhish-m-portfolio.netlify.app/",
+    github: "https://github.com/Ganadhish7/updated-portfolio",
   },
   {
     projectId: 4,
@@ -35,11 +35,11 @@ const projectData = [
   },
   {
     projectId: 5,
-    projectName: "Use Popcorn",
+    projectName: "React Quiz",
     techStack: "ReactJS",
-    image: "./projects/usepopcorn.png",
-    link: "lllllll",
-    github: "lllllll",
+    image: "./projects/react-quiz.png",
+    link: "https://react-quiz-pi-five.vercel.app/",
+    github: "https://github.com/Ganadhish7/react-quiz",
   },
   {
     projectId: 6,
@@ -47,7 +47,7 @@ const projectData = [
     techStack: "ReactJS ,React Router",
     image: "./projects/Worldwise.png",
     link: "llllll",
-    github: "llllll",
+    github: "https://github.com/Ganadhish7/worldwise-app",
   },
 ];
 
