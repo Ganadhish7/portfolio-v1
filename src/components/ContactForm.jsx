@@ -1,32 +1,43 @@
+import { useState } from "react";
+
 function ContactForm() {
+  const [name, setName] = useState("");
+  const [mail, setMail] = useState("");
+  const [comments, setComments] = useState("");
+
+  // function handleSubmission(e) {
+  //   e.preventDefault();
+  // }
+
   return (
     <form
       className=" mb-6 flex flex-col justify-center space-y-4"
-      data-netlify-honeypot="bot-field"
-      data-netlify="true"
       name="contact"
       method="POST"
-      onSubmit="submit"
     >
       <input type="hidden" name="form-name" value="contact" />
       <div hidden>
         <input name="bot-field" />
       </div>
       <div>
-        <label htmlFor="first-name">Name</label>
+        <label htmlFor="name">Name</label>
         <br />
         <input
+          value={name}
+          onChange={(e) => setName(e.target.value)}
           className=" w-80 rounded-md"
-          name="first-name"
+          name="name"
           type="text"
-          id="first-name"
-          placeholder="name"
+          id="name"
+          placeholder="Your name"
         />
       </div>
       <div>
         <label htmlFor="email">Email</label>
         <br />
         <input
+          value={mail}
+          onChange={(e) => setMail(e.target.value)}
           className=" w-80 rounded-md"
           id="email"
           type="text"
@@ -35,18 +46,19 @@ function ContactForm() {
         />
       </div>
       <div>
-        <label>
+        <label htmlFor="comments">
           Any Comments <br />
           <textarea
+            value={comments}
+            onChange={(e) => setComments(e.target.value)}
             className=" w-80 rounded-md"
             name="comments"
-            id=""
+            id="comments"
             cols="20"
             rows="5"
           ></textarea>
         </label>
       </div>
-      <div data-netlify-recaptcha="true"></div>
       <button
         className=" rounded-lg bg-blue-300 uppercase tracking-wide hover:bg-blue-400"
         type="submit"
