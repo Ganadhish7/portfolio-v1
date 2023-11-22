@@ -41,8 +41,8 @@ function Skills() {
         </div>
         <div>
           <ul className=" ">
-            {techSkills.map((skill) => (
-              <SkillsList skill={skill} />
+            {techSkills.map((skill, i) => (
+              <SkillsList key={i} skill={skill} />
             ))}
           </ul>
         </div>

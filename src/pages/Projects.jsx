@@ -46,7 +46,7 @@ const projectData = [
     projectName: "Worldwise",
     techStack: "ReactJS ,React Router",
     image: "./projects/Worldwise.png",
-    link: "llllll",
+    link: "https://worldwise-app-beta.vercel.app/",
     github: "https://github.com/Ganadhish7/worldwise-app",
   },
 ];
@@ -65,7 +65,7 @@ function Projects() {
           <div className=" flex flex-wrap justify-center">
             {projectData.map((project, i) => (
               <ul>
-                <ProjectsList project={project} index={i} />
+                <ProjectsList project={project} key={i} index={i} />
               </ul>
             ))}
           </div>

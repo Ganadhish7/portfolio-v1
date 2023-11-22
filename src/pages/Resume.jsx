@@ -3,7 +3,7 @@ import { faCircleDown } from "@fortawesome/free-solid-svg-icons";
 
 function Resume() {
   const handleDownloadPdf = () => {
-    const pdfPath = process.env.PUBLIC_URL + "./git-cheat-sheet-education.pdf";
+    const pdfPath = process.env.PUBLIC_URL + "./Ganadhish-Mardikar.pdf";
     window.open(pdfPath, "_blank");
   };
 

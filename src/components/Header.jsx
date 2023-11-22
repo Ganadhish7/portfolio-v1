@@ -8,7 +8,7 @@ function Header() {
     setIsOpen(!isOpen);
   }
   return (
-    <header className="  relative bg-blue-200 p-4 ">
+    <header className={`  relative bg-blue-200 p-4`}>
       <nav className=" container mx-auto flex items-center justify-between">
         <h2 className=" font-bold uppercase tracking-widest text-white">
           Ganadhish
