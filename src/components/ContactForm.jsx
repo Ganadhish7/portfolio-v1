@@ -29,7 +29,7 @@ function ContactForm() {
           name="name"
           type="text"
           id="name"
-          placeholder="Your name"
+          spellCheck="true"
         />
       </div>
       <div>
@@ -42,7 +42,7 @@ function ContactForm() {
           id="email"
           type="text"
           name="email"
-          placeholder="email"
+          spellCheck="true"
         />
       </div>
       <div>

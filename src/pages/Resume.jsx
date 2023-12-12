@@ -3,7 +3,7 @@ import { faCircleDown } from "@fortawesome/free-solid-svg-icons";
 
 function Resume() {
   const handleDownloadPdf = () => {
-    const pdfPath = process.env.PUBLIC_URL + "./Ganadhish-Mardikar.pdf";
+    const pdfPath = process.env.PUBLIC_URL + "./Ganadhish-Mardikar-Resume.pdf";
     window.open(pdfPath, "_blank");
   };
 
@@ -42,7 +42,7 @@ function Resume() {
                 Throughout this diploma, I gained proficiency in designing and
                 troubleshooting electronic circuits, understanding
                 telecommunications networks, and applying key concepts in
-                real-world projects
+                real-world projects.
               </p>
             </li>
             <br />
