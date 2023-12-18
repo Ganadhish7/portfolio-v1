@@ -10,10 +10,10 @@ function Header() {
   return (
     <header className={`  relative bg-blue-200 p-4`}>
       <nav className=" container mx-auto flex items-center justify-between">
-        <h2 className=" font-bold uppercase tracking-widest text-white">
+        <h2 className=" text-xl font-bold uppercase tracking-widest text-white">
           Ganadhish
         </h2>
-        <ul className=" hidden space-x-10 text-center uppercase text-white sm:flex">
+        <ul className=" hidden space-x-10 text-center font-bold uppercase text-white sm:flex">
           <li className=" cursor-pointer transition duration-300 hover:text-slate-600">
             <Link to="section-1" smooth={true}>
               Projects
