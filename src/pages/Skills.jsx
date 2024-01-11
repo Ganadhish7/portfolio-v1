@@ -14,6 +14,10 @@ const techSkills = [
     logo: "./skills/js.png",
   },
   {
+    skillName: "TypeScript",
+    logo: "./skills/typescript.png",
+  },
+  {
     skillName: "ReactJS",
     logo: "./skills/react.png",
   },
