@@ -14,8 +14,8 @@ function Homepage() {
           >
             <p className=" text-center ">Hello</p>
             <h3 className=" uppercase">I'm Ganadhish </h3>
-            <h3 className=" font-thin uppercase italic ">A Frontend</h3>
-            <p>Developer</p>
+            <h3 className=" font-thin uppercase italic ">A Blockchain</h3>
+            <p>Enthusiast</p>
           </div>
         </div>
       </section>

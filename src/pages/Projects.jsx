@@ -66,7 +66,7 @@ function Projects() {
       >
         <div className=" container mx-auto">
           <h1 className="mb-4 text-3xl font-thin uppercase text-slate-500">
-            Projects
+            Web Projects
           </h1>
           <div className=" flex flex-wrap justify-center">
             {projectData.map((project, i) => (
