@@ -6,11 +6,11 @@ function Footer() {
           <strong className="uppercase">About</strong>
           <div className="">
             <p>
-              Welcome to my portfolio! I'm a web developer with a passion for
+              Welcome to my portfolio! I'm a Frontend web developer with a passion for
               crafting immersive and user-friendly web experiences. Through a
               blend of design and technical expertise, I transform concepts into
               visually stunning and seamlessly functional websites. Explore my
-              projects of frontend development in action.
+              projects of Web development in action.
             </p>
           </div>
         </div>

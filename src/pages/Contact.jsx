@@ -57,7 +57,7 @@ function Contact() {
                 size="2xl"
               />
               <h4 className=" font-bold">Website</h4>
-              <a href="https://ganadhish-m-portfolio.netlify.app/">Portfolio</a>
+              <a href="https://ganadhish-mardikar.netlify.app/">Portfolio</a>
             </div>
           </div>
           <div className=" flex justify-center rounded-md bg-blue-100 text-center ">

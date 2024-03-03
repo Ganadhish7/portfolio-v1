@@ -1,0 +1,9 @@
+@keyframes changeText{
+ 0%{ content: "A Frontend Developer"; }
+ 50%{ content: "A Blockchain Enthusiast";}
+}
+
+.text-transform h1::after{
+ content:"";
+ animation: changeText 2s infinite;
+}
